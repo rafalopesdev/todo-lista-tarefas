@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f4f4;
+  padding: 30px;
+  color: #333;
+  background-image: url('./img/city.avif');
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  height: 100vh;
+}
+.app {
+  max-width: 600px;
+  overflow: auto;
+  height: 600px;
+  margin: 0 auto;
+  background: #efefef;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+.app::-webkit-scrollbar {
+  width: 20px;
+}
+
+.app::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+.app::-webkit-scrollbar-thumb {
+  background-color: #cecece;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  margin-bottom: 10px;
+}
+p {
+  margin: 10px 0;
+}
+input {
+  box-sizing: border-box;
+}
+button {
+  background-color: #23d02f;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  margin-right: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+button:hover {
+  opacity: 1;
+}
+.todo-form {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #555;
+}
+input,
+select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.todo-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.todo {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.complete {
+  background-color: #23d02f;
+}
+.icon {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.remove {
+  background-color: #d9534f;
+}
+.filter,
+.search {
+  border-bottom: 1px solid #555;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.filter-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.filter-options div {
+  flex: 1 1 0;
+}
